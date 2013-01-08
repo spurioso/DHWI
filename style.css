@@ -1,7 +1,7 @@
 @media screen { /* less than 480px (smartphone, etc.) */
 	
 		html {
-			background-color: #CCAE35;
+			/*background-color: #CCAE35; */
 		}
 		
 		body {			
@@ -48,7 +48,7 @@
 	}
 	
 	h1 {
-		color: blue;
+		/*color: blue; */
 	}
 
 	li {
