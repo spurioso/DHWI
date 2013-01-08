@@ -1,0 +1,62 @@
+@media screen { /* less than 480px (smartphone, etc.) */
+	
+		html {
+			background-color: #CCAE35;
+		}
+		
+		body {			
+			font-family: 'Cutive Mono', serif;
+			font-size: 16px;
+			color: #444;
+			background-color: #CCDED1;
+			padding: 20px;			
+		}
+		
+		h1 {
+			font-family: Georgia;
+			color: #999;
+			text-transform: uppercase;
+		}
+
+		ul {
+			list-style: none; /* no style at all! Overrides default styles.*/
+			margin-left: 0;
+			padding-left: 0; /* some browsers use padding-left, others use margin-left */
+		}
+
+		a:link {  /* these are all the states a link can have */
+			color: #967D94;
+			} 
+		a:visited {
+			color: #679;	
+		}
+		
+		/* a:hover
+		a:focus
+		a:active */
+}
+
+@media screen and (min-width: 480px) { /* tablet */
+
+}
+
+@media screen and (min-width: 768px) { /* small laptop or older computer with 800x600 resolution */
+	
+	body {
+		width: 700px;
+		margin: 20px auto;
+	}
+	
+	h1 {
+		color: blue;
+	}
+
+	li {
+		display: inline;
+	}
+	
+}
+
+@media screen and (min-width: 992px) { /*bigger screen */
+	
+}
